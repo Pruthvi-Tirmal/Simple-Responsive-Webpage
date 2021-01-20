@@ -1,0 +1,60 @@
+header nav,
+header nav i,
+header nav a,
+header div i {
+  display: inline-block;
+}
+header {
+  justify-content: space-between;
+}
+
+header div,
+header nav {
+  width: 300px;
+  height: 80%;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  /* temporary */
+  /* background-color: red; */
+}
+header div a {
+  width: 190px;
+  justify-content: flex-start;
+}
+
+header nav {
+  justify-content: space-between;
+}
+section i {
+  margin-left: 10px;
+  padding: 10px 20px;
+}
+
+div i {
+  margin: 15px;
+  display: inline;
+}
+
+header nav a :hover {
+  color: black;
+}
+
+#idx-atf {
+  background-image: url("github_build.jpg");
+}
+
+#idx-atf > div {
+  height: 20vh;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h3 {
+  margin: 0.4rem;
+}
+
+footer {
+  display: none;
+}
